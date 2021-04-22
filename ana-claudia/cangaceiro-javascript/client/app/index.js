@@ -26,6 +26,7 @@ document.querySelector('.form').addEventListener('submit', function (event) {
 
     tbody.appendChild(tr);
 
+    // limpar campos
     campos[0].value = '';
     campos[1].value = 1;
     campos[2].value = 0;
