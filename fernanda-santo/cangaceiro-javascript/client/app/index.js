@@ -1,10 +1,12 @@
 
 //array de campos com referência para cada um dos elementos de entrada do formulários
-const campos = [
-    document.querySelector('#date'),
-    document.querySelector('#value'),
-    document.querySelector('#quantity')
-];
+// const campos = [
+//     document.querySelector('#date'),
+//     document.querySelector('#value'),
+//     document.querySelector('#quantity')
+// ];
+
+const campos = document.querySelectorAll('[data-field]');
 
 console.log(campos);
 
